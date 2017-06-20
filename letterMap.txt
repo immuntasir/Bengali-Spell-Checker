@@ -1,0 +1,25 @@
+string ko = ক 
+string hoshonto ্
+string nya;ঞ 
+string ca;চ
+string cha; ছ 
+string ja;জ 
+string jha;ঝ 
+string ba;ব
+string ma;ম
+string ga;গ
+string U;উ
+string D;দ
+string ng ঙ
+string tta;ট 
+string nna;ণ
+string na;ন 
+string la;ল
+string sha;শ 
+string ssa;ষ 
+string sa;স
+string ha;হ 
+string R;ঋ 
+string ra;র 
+string ya;য 
+string visharga ঃ 
