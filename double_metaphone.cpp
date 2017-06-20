@@ -1,6 +1,30 @@
 #include <bits/stdc++.h>
 using namespace std;
-string hoshonto, ko, sho;
+string ka;
+string hoshonto;
+string nya;
+string ca;
+string cha;
+string ja;
+string jha;
+string ba;
+string ma;
+string ga;
+string U;
+string D;
+string nga;
+string tta;
+string nna;
+string na;
+string la;
+string sha;
+string ssa;
+string sa;
+string ha;
+string R;
+string ra;
+string ya;
+string visharga;
 string convertToDoubleMetaphone (vector <string> word) {
     string ret;
 
@@ -20,8 +44,8 @@ string doubleMetaphone (string word) {
     for (int i=0; i<chars.size(); i++) {
         // kkhiyo
 	//24 25
-        if (chars[i] == ko && i < chars.size() - 2 && chars[i+1] == hoshonto && chars[i+2] == sho) {
-             done.push_back(ko+hoshonto+sho);
+        if (chars[i] == ka && i < chars.size() - 2 && chars[i+1] == hoshonto && chars[i+2] == ssa) {
+             done.push_back(ka+hoshonto+ssa);
              i++;
              i++;
         }
@@ -104,66 +128,66 @@ string doubleMetaphone (string word) {
             done.push_back(ba+ba);
             i++;
         }
-        // mo fola        
+        // mo fola
         //80
 	else if(chars[i]==ka && i < chars.size() - 2 && chars[i+1]==hoshonto && chars[i+2]==ma){
 		done.push_back(ka+hoshonto+ma);
 		i+=2;
 	}
-	//81 
+	//81
 	else if(chars[i]==ga && i < chars.size() - 2 && chars[i+1]==hoshonto && chars[i+2]==ma){
 		done.push_back(ga+hoshonto+ma);
 		i+=2;
 	}
 
-	//82 
+	//82
 	else if(chars[i]==nga && i < chars.size() - 2 && chars[i+1]==hoshonto && chars[i+2]==ma){
 		done.push_back(nga+hoshonto+ma);
 		i+=2;
 	}
-	//83 
+	//83
 	else if(chars[i]==tta && i < chars.size() - 2 && chars[i+1]==hoshonto && chars[i+2]==ma){
 		done.push_back(tta+hoshonto+ma);
 		i+=2;
 	}
 
-	//84 
+	//84
 	else if(chars[i]==nna && i < chars.size() - 2 && chars[i+1]==hoshonto && chars[i+2]==ma){
 		done.push_back(nna+hoshonto+ma);
 		i+=2;
 	}
 
-	//85 
+	//85
 	else if(chars[i]==na && i < chars.size() - 2 && chars[i+1]==hoshonto && chars[i+2]==ma){
 		done.push_back(na+hoshonto+ma);
 		i+=2;
 	}
 
-	//86 
+	//86
 	else if(chars[i]==ma && i < chars.size() - 2 && chars[i+1]==hoshonto && chars[i+2]==ma){
 		done.push_back(ma+hoshonto+ma);
 		i+=2;
 	}
 
-	//87 
+	//87
 	else if(chars[i]==la && i < chars.size() - 2 && chars[i+1]==hoshonto && chars[i+2]==ma){
 		done.push_back(la+hoshonto+ma);
 		i+=2;
 	}
 
-	//88 
+	//88
 	else if(i!=0 && chars[i]==sha && i < chars.size() - 2 && chars[i+1]==hoshonto && chars[i+2]==ma){
 		done.push_back(sha+hoshonto+ma);
 		i+=2;
 	}
 
-	//89 
+	//89
 	else if(i!=0 && chars[i]==ssa && i < chars.size() - 2 && chars[i+1]==hoshonto && chars[i+2]==ma){
 		done.push_back(ssa+hoshonto+ma);
 		i+=2;
 	}
 
-	//90 
+	//90
 	else if(i!=0 && chars[i]==sa && i < chars.size() - 2 && chars[i+1]==hoshonto && chars[i+2]==ma){
 		done.push_back(sa+hoshonto+ma);
 		i+=2;
@@ -230,8 +254,8 @@ string doubleMetaphone (string word) {
             }
             else done.push_back(ba+ba);
         }
-        
-        
+
+
         // else
         else {
             done.push_back(chars[i]);
@@ -243,12 +267,62 @@ char str[101];
 int main () {
     FILE * id;
     id = fopen("hoshonto.txt", "r");
+    //string ka;
+    fscanf(id, "%s", str);
+    for (int i=0; i<3; i++) ka.push_back(str[i]);
+
+    //string hoshonto;
     fscanf(id, "%s", str);
     for (int i=0; i<3; i++) hoshonto.push_back(str[i]);
+
+//    string nya;
+
+//    string ca;
+
+//    string cha;
+
+//    string ja;
+
+//    string jha;
+
+//    string ba;
+
+//    string ma;
+
+//    string ga;
+
+//    string U;
+
+//    string D;
+
+
+//    string nga;
+
+//    string tta;
+
+//    string nna;
+
+//    string na;
+
+//    string la;
+
+//    string sha;
+
+//    string ssa;
     fscanf(id, "%s", str);
-    for (int i=0; i<3; i++) ko.push_back(str[i]);
-    fscanf(id, "%s", str);
-    for (int i=0; i<3; i++) sho.push_back(str[i]);
+    for (int i=0; i<3; i++) ssa.push_back(str[i]);
+
+//    string sa;
+
+//    string ha;
+
+//    string R;
+
+//    string ra;
+
+//    string ya;
+
+//    string visharga;
     fclose(id);
     string word;
     cin >> word;
