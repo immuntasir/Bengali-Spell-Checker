@@ -19,6 +19,7 @@ string doubleMetaphone (string word) {
     }
     for (int i=0; i<chars.size(); i++) {
         // kkhiyo
+	//24 25
         if (chars[i] == ko && i < chars.size() - 2 && chars[i+1] == hoshonto && chars[i+2] == sho) {
              done.push_back(ko+hoshonto+sho);
              i++;
@@ -43,7 +44,6 @@ string doubleMetaphone (string word) {
 		done.push_back(nya+hoshonto+ja);
 		i+=2;
 	}
-
 
 	//44
 	else if(chars[i]==nya && i < chars.size() - 2 && chars[i+1]==hoshonto && chars[i+2]==jha){
@@ -74,27 +74,32 @@ string doubleMetaphone (string word) {
 		i++;
 	}
         // bo fola
+	//71
         else if (chars[i] == ba && i < chars.size() - 2 && chars[i+1] == hoshonto && chars[i+2] == ba) {
             done.push_back(ba+hoshonto+ba);
              i++;
              i++;
         }
+	//72
         else if (chars[i] == ma && i < chars.size() - 2 && chars[i+1] == hoshonto && chars[i+2] == ba) {
             done.push_back(ma+hoshonto+ba);
              i++;
              i++;
         }
+	//73
         else if (chars[i] == ga && i < chars.size() - 2 && chars[i+1] == hoshonto && chars[i+2] == ba) {
             done.push_back(ga+hoshonto+ba);
              i++;
              i++;
         }
+	//74
         else if (chars[i] == U && i < chars.size() - 3 && chars[i+1] == D && chars[i+2] == hoshonto && chars[i+3] == ba) {
             done.push_back(U+D+hoshonto+ba);
              i++;
              i++;
              i++;
         }
+	//75
         else if (chars[i] == hoshonto && i < chars.size() - 1 && chars[i+1] == ba && i > 1 && chars[i-2] != hoshonto) {
             done.push_back(ba+ba);
             i++;
@@ -169,47 +174,56 @@ string doubleMetaphone (string word) {
             i++;
         }
         // ho
+	    //95
         else if (chars[i] == ha && i < chars.size() - 2 && chars[i+1] == hoshonto && chars[i+2] == R) {
             done.push_back(ha+hoshonto+R);
              i++;
              i++;
         }
+	    //96
         else if (chars[i] == ha && i < chars.size() - 2 && chars[i+1] == hoshonto && chars[i+2] == ra) {
             done.push_back(ha+hoshonto+ra);
              i++;
              i++;
         }
+	    //97
         else if (chars[i] == ha && i < chars.size() - 2 && chars[i+1] == hoshonto && chars[i+2] == na) {
             done.push_back(ha+hoshonto+na);
              i++;
              i++;
         }
+	    //98
         else if (chars[i] == ha && i < chars.size() - 2 && chars[i+1] == hoshonto && chars[i+2] == nna) {
             done.push_back(ha+hoshonto+nna);
              i++;
              i++;
         }
+	    //99
         else if (chars[i] == ha && i < chars.size() - 2 && chars[i+1] == hoshonto && chars[i+2] == ma) {
             done.push_back(ha+hoshonto+ma);
              i++;
              i++;
         }
+	    //100
         else if (chars[i] == ha && i < chars.size() - 2 && chars[i+1] == hoshonto && chars[i+2] == ya) {
             done.push_back(ha+hoshonto+ya);
              i++;
              i++;
         }
+	    //101 102
         else if (chars[i] == ha && i < chars.size() - 2 && chars[i+1] == hoshonto && chars[i+2] == la) {
              done.push_back(ha+hoshonto+la);
              i++;
              i++;
         }
+	    //103
         else if (chars[i] == ha && i < chars.size() - 2 && chars[i+1] == hoshonto && chars[i+2] == ba) {
             done.push_back(ha+hoshonto+ba);
              i++;
              i++;
         }
         // bishorgo
+	    //105 106 107 108
         else if (chars[i] == visharga) {
             if (i == chars.size() - 1) {
                 if (chars.size() <= 2) done.push_back(visharga);
