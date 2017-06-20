@@ -11,19 +11,15 @@ For নঞ: Expected: nn. Your stupid code returned: n
 For বিকৃত: Expected: bkrit. Your stupid code returned: bt
 For প্রকাশ: Expected: prks. Your stupid code returned: prs
 For তিব্বত: Expected: tbbt. Your stupid code returned: tt
-For লম্ব: Expected: lmb. Your stupid code returned: l
 For দিগ্বিদিক: Expected: dgbdk. Your stupid code returned: dd
 For উদ্বেগ: Expected: udbg. Your stupid code returned: g
 For বিশ্বজিত: Expected: bssjt. Your stupid code returned: bsjt
 For সূক্ষ্ম: Expected: skk. Your stupid code returned: skkm
 For রুক্মিনী: Expected: rkmn. Your stupid code returned: rn
-For যুগ্ম: Expected: jgm. Your stupid code returned: j
 For বাঙ্ময়: Expected: bngm. Your stupid code returned: b
 For কুট্মাল: Expected: ktml. Your stupid code returned: l
 For মৃণ্ময়: Expected: mrinm. Your stupid code returned: m
-For জন্ম: Expected: jnm. Your stupid code returned: j
 For রুম্মান: Expected: rmmn. Your stupid code returned: rn
-For গুল্ম: Expected: glm. Your stupid code returned: g
 For কাশ্মীর: Expected: ksmr. Your stupid code returned: r
 For কুষ্মান্ড: Expected: ksmnD. Your stupid code returned: nD
 For সুস্মিতা: Expected: ssmt. Your stupid code returned: st
@@ -33,6 +29,5 @@ For পূর্বাহ্ন: Expected: prbnn. Your stupid code returned: prn
 For উহ্য: Expected: ujj. Your stupid code returned: jj
 For আহবান: Expected: ahbn. Your stupid code returned: bn
 For দুঃসময়: Expected: dssm. Your stupid code returned: dsm
-For উঃ: Expected: h. Your stupid code returned: 
 For বাঃ: Expected: bh. Your stupid code returned: b
-37 errors in total. You gotta try harder
+32 errors in total. You gotta try harder
