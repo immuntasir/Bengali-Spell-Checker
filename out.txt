@@ -1,12 +1,8 @@
 For চাঁদনী: Expected: cdn. Your stupid code returned: sdn
 For বাঙলা: Expected: bnl. Your stupid code returned: bngl
 For বাংলা: Expected: bnl. Your stupid code returned: bngl
-For সত্যজিত: Expected: sttjt. Your stupid code returned: stjt
-For অঞ্চল: Expected: nsl. Your stupid code returned: nl
-For বাঞ্ছা: Expected: bns. Your stupid code returned: bn
-For মঞ্জু: Expected: mnj. Your stupid code returned: mn
-For যঞ্ঝা: Expected: jnj. Your stupid code returned: jn
-For যাচ্ঞা: Expected: jsn. Your stupid code returned: jn
+For শ্যামা: Expected: sm. Your stupid code returned: ssm
+For সন্ধ্যা: Expected: snd. Your stupid code returned: sndd
 For নঞ: Expected: nn. Your stupid code returned: n
 For বিকৃত: Expected: bkrit. Your stupid code returned: bt
 For প্রকাশ: Expected: prks. Your stupid code returned: prs
@@ -30,4 +26,4 @@ For উহ্য: Expected: ujj. Your stupid code returned: jj
 For আহবান: Expected: ahbn. Your stupid code returned: bn
 For দুঃসময়: Expected: dssm. Your stupid code returned: dsm
 For বাঃ: Expected: bh. Your stupid code returned: b
-32 errors in total. You gotta try harder
+28 errors in total. You gotta try harder
